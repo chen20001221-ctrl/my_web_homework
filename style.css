@@ -1,0 +1,71 @@
+/* 讓 footer 貼底的基本版型 */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Sans TC", sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* 頁首 */
+header {
+  background-color: #fcd34d;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 導覽列連結 */
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #1d4ed8;
+}
+
+/* 主內容撐開 */
+main {
+  flex: 1;
+  padding: 30px;
+}
+
+/* 主標題 */
+h1 { color: #111827; }
+
+/* 圖片 */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* 表單欄位 */
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* 送出按鈕 */
+form button {
+  padding: 10px 20px;
+  background-color: #f59e0b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 頁尾 */
+footer {
+  background-color: #fde68a;
+  text-align: center;
+  padding: 20px;
+}
